@@ -1,0 +1,333 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+
+
+/* header Top Styling */
+.navbar ul {
+    margin:0;
+    padding: 0;
+    background-color: #0d0d0d;
+    overflow: hidden;
+  }
+  
+  .navbar li {
+    float: left;
+    list-style-type: none;
+    align-items: center;
+    padding: 0px -21px  0px 2px ;
+  }
+  
+  .navbar li a {
+    display: block;
+    justify-content: center;
+    color: #f7f5f5;
+    text-align: center;
+    padding:14px 16px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+  } 
+
+  .navbar {
+    position: fixed;
+    align-self: center;
+    padding: 0px 1px 3px 2px;
+    margin-top: 0%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #090808;
+  }
+  
+  .navbar li a:hover {
+    background-color: #bebebe;
+    color: #090808;
+  }
+
+/* Closed top styling */
+
+/* Contant Dawn */
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px; /* Default font size */
+    margin-top: 3%;
+    margin-bottom:-24px;    
+  }
+
+  h1 a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  span {
+    display: flex;
+    margin-top: 0%;
+    margin-bottom: 0;
+    justify-content: center;
+    font-size: 16px;
+    color: rgb(139, 138, 138);
+  }
+
+  /* Underline Adjastament */
+.underline {  
+    display: flex;
+    align-items: center;
+    width: 85vw;
+    height: 1vh;
+    border-radius: 40px;
+    margin-bottom: 30px;
+    margin: auto;
+    background-color: rgb(5, 5, 5);
+   
+}
+
+/* Navebar header */
+
+.header li{
+  float: left;
+  margin: auto;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+
+}
+.header li a {
+  display: block;
+  color: #0a0a0a;
+  text-align: center;
+  padding:10px 16px 20px 5px;
+  text-decoration: none;  
+} 
+
+.header li a:hover {
+  background-color: #dddddd;
+}
+
+/* User Info */
+input {
+  margin: auto;
+  height: 24px;
+  width: 130px;
+}
+
+h2 {
+  color: rgb(3, 3, 3);
+  display: flex;
+  justify-content: center;
+  font-size: 38px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat";
+}
+
+.para{
+  color: #0a0a0a;
+  margin-left: 46px;
+  margin-top:-0.6%;
+
+}
+
+
+/* Image Contant */
+image.container {
+  display: flex;
+  justify-content:center;
+  margin-top: 20px;
+}
+
+image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: px;
+}
+
+.image-container {
+  text-align: center; 
+}
+
+.date {
+  border-radius: 4px;
+  width: 130px;
+  height: 30px;
+ 
+}
+.update{
+  margin-top:-10px;
+}
+
+/* Socail Appp */
+.social{
+  display: flex;
+  justify-content: right;
+  margin:0px 1px;
+  margin-right: 50px;
+  font-size: 36px; 
+}
+
+/* Icon adjastment */
+.fa-brands {
+  margin-right:20px;
+}
+
+ .fa-sharp{
+  margin-right: 20px;
+
+}
+
+.fa-solid {
+  margin-right: 20px;
+
+}
+
+/* Socail icon hover effect */
+:hover.fa-brands {
+  font-size: 45px;
+}
+
+:hover.fa-sharp {
+  font-size: 45px;
+}
+:hover.fa-solid {
+  font-size: 45px;
+}
+
+.para {
+  display: flex;
+  text-align: center;
+  text-align:justify;
+  justify-content: center;
+  margin-left: 200px;
+  margin-right:200px ;
+  
+}
+
+/* Footer Seaction dtyling */
+.footer {
+  background-color: #f5f5f5;
+  padding: 20px 0;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-section p,
+.footer-section ul {
+  margin: 0;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 5px;
+}
+
+.footer-section ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #333;
+}
+
+#news{
+    font-size: 50px;
+    float: left;
+    margin-left: -20%;
+    margin-top: 0%;
+    margin: -38px;
+}
+
+/* Login user informaction */
+
+.info-user {
+    align-items: center;
+    margin-left: 200px;
+  
+}
+
+.info-user input {
+ border: none;
+ background-color: #dcdada;
+ height: 35px;
+ width: 180px;
+ padding: 4px 11px 4px 11px;
+ 
+}
+
+#email {
+  margin-left: 45px;
+}
+
+#city {
+  margin-left: 45px;
+}
+
+/* submit swaction */
+
+.submit {
+  font-size: 20px;
+   width: 130px;
+   height: 40px;
+   border-radius: 50px;
+   cursor: pointer;
+   outline: auto;
+   color: white;
+   background-color: rgb(139, 139, 139);
+   margin: 2px 7px 4px -3px;
+   
+}
+
+/* button hover submit  */
+:hover.submit  {
+  background-color: rgb(7, 7, 7);
+  width: 200px;
+  font-size: 25px;
+  
+  
+}
+.comment{
+  float: left;
+  font-size: medium;
+  color: #464545;
+  font-family: sans-serif;
+}
+
+textarea {
+  border: none;
+  background-color: #dcdada;
+  color: #090909;
+  font-size: 13px;
+
+}
+        /* BEST OF LUCK THANKS FOR READING  INSHALLAHA SEE YOU SOON*/
